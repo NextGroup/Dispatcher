@@ -2,8 +2,17 @@ package server.event_handler;
 
 import java.util.StringTokenizer;
 
+/**
+ * @author dongkuk
+ * 이벤트 핸들러를 정의하는 추상클래스.
+ *
+ */
 public abstract class EventHandler {
-    // 메세지 분해
+    /**
+     * @param params
+     * @return Nothing
+     * 전달된 이벤트를 처리한다.
+     */
     public void handleEvents(String params) {
         String[] arr = new String[2];
 
@@ -18,9 +27,18 @@ public abstract class EventHandler {
         printService(str1, str2);
     }
 
-    // 지금은 적절한 이벤트 핸들러를 찾아가는 key값이 핸들입니다.
+    /**
+     * @param
+     * @return HandleKey
+     * 특정 이벤트 핸들러의 키값을 반환하는 추상메서드.
+     */
     public abstract String getHandle();
 
-    // 콜백 메서드 입니다.
+    /**
+     * @param str1
+     * @param str2
+     * @return Nothing
+     * 특정 이벤트를 출력하는 콜백메서드.
+     */
     public abstract void printService(String str1, String str2);
 }

@@ -5,16 +5,31 @@ import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Demux {
+/**
+ * @author dongkuk
+ * 이벤트가 발생하면 디코딩한다.
+ */
+public class Demultiplexer {
     private ServerSocket serverSocket;
 
-    // 서버 소켓 생성
-    public Demux() throws IOException {
+    /**
+     * @param
+     * @throws IOException
+     * @return Nothing
+     * 디멀티플렉서 생성자
+     * 서버 소켓을 생성한다.
+     */
+    public Demultiplexer() throws IOException {
         serverSocket = new ServerSocket(5000);
     }
 
-    // 이벤트 분해 후 핸들러에 전달
-    public void select(Handle handlers) throws IOException {
+    /**
+     * @param handlers
+     * @throws IOException
+     * @return Nothing
+     * 이벤트가 발생하면 디코딩한다.
+     */
+    public void select(HandleMap handlers) throws IOException {
         Socket socket = serverSocket.accept();
         InputStream inputStream = socket.getInputStream();
 
@@ -29,5 +44,3 @@ public class Demux {
         handlers.get(header).handleEvents(body);
     }
 }
-
-// Demultiplexer로 변경

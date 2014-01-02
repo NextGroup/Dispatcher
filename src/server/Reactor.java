@@ -12,7 +12,6 @@ public class Reactor {
 
     /**
      * Reactor 생성자. 핸들과 이벤트 핸들러를 관리할 핸들맵을 초기화한다.
-     * @param
      * @return Nothing
      */
     public Reactor() {
@@ -21,7 +20,6 @@ public class Reactor {
 
     /**
      * 디멀티플렉서에 select 명령을 한다.
-     * @param
      * @throws IOException
      * @return Nothing
      */

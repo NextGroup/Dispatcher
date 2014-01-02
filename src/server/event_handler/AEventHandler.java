@@ -1,7 +1,8 @@
 package server.event_handler;
 
 /**
- * A 이벤트 핸들러.
+ * A 이벤트 핸들러. -> 핸들러 이름을 변경하자 SayHelloHanlder (name, email)
+ * 
  */
 public class AEventHandler extends EventHandler {
 

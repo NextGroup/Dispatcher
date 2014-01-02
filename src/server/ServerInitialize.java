@@ -13,7 +13,6 @@ public class ServerInitialize {
 
     /**
      * Reactor를 초기화하고 이벤트 핸들러를 등록한다. Reactor에 이벤트 핸들링을 명령한다.
-     * @param
      * @return Nothing
      */
     private void dispatch() {
@@ -31,7 +30,7 @@ public class ServerInitialize {
 
     /**
      * 메인 구문. server를 초기화한다.
-     * @param args
+     * @param args 기본 변수 
      */
     public static void main(String[] args) {
         ServerInitialize serverInitialize = new ServerInitialize();

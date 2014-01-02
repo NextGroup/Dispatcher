@@ -1,0 +1,4 @@
+<map id="server.event_handler.EventHandler" name="server.event_handler.EventHandler">
+<area shape="rect" id="node2" href="$classserver_1_1event__handler_1_1_a_event_handler.html" title="{server.event_handler.AEvent\lHandler\n||+ getHandle()\l+ printService()\l}" alt="" coords="4,185,195,298"/>
+<area shape="rect" id="node3" href="$classserver_1_1event__handler_1_1_b_event_handler.html" title="{server.event_handler.BEvent\lHandler\n||+ getHandle()\l+ printService()\l}" alt="" coords="220,185,411,298"/>
+</map>

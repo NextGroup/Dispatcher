@@ -5,14 +5,13 @@ import server.event_handler.EventHandler;
 import java.io.IOException;
 
 /**
- * @author dongkuk
- * EventHandler를 관리하는 객체
- * 이벤트 디코딩하여 적절한 핸들러에 분배한다.
+ * 이벤트 핸들러를 관리하는 객체.
  */
 public class Reactor {
     private HandleMap handlers;
 
     /**
+     * Reactor 생성자. 핸들과 이벤트 핸들러를 관리할 핸들맵을 초기화한다.
      * @param
      * @return Nothing
      */
@@ -21,10 +20,10 @@ public class Reactor {
     }
 
     /**
+     * 디멀티플렉서에 select 명령을 한다.
      * @param
      * @throws IOException
      * @return Nothing
-     * 이벤트를 디코딩한 후, 적절한 핸들러에 분배한다.
      */
     public void handle_events() throws IOException {
         Demultiplexer demultiplexer = new Demultiplexer();
@@ -34,18 +33,18 @@ public class Reactor {
     }
 
     /**
-     * @param handler
-     * @return Nothing
      * Reactor에 이벤트 핸들러를 등록한다.
+     * @param handler 특정 이벤트를 처리할 핸들러
+     * @return Nothing
      */
     public void registerHandler(EventHandler handler) {
         handlers.put(handler.getHandle(), handler);
     }
 
     /**
-     * @param handler
-     * @return Nothing
      * Reactor에 이벤트 핸들러를 제거한다.
+     * @param handler 특정 이벤트를 처리할 핸들러
+     * @return Nothing
      */
     public void removeHandler(EventHandler handler) {
         handlers.remove(handler.getHandle());

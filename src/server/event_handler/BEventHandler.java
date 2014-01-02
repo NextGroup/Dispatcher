@@ -1,25 +1,24 @@
 package server.event_handler;
 
 /**
- * @author dongkuk
- * B 이벤트 핸들러
+ * B 이벤트 핸들러.
  */
 public class BEventHandler extends EventHandler {
 
     /**
-     * @param
-     * @return HandleKey
      * B 이벤트 핸들러의 키값을 반환한다.
+     * @param
+     * @return HandleKey B 이벤트 핸들러의 키값.
      */
     public String getHandle() {
         return "0x6001";
     }
 
     /**
-     * @param nation
-     * @param city
-     * @return Nothing
      * B 이벤트를 출력하는 서비스.
+     * @param nation 나라.
+     * @param city 도시.
+     * @return Nothing
      */
     @Override
     public void printService(String nation, String city) {

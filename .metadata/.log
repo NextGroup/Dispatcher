@@ -1,0 +1,12 @@
+!SESSION 2013-12-26 18:29:51.736 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/dongkuk/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/dongkuk/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 2 2013-12-27 12:02:11.398
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2013-12-27 12:02:11.398
+!MESSAGE The project description file (.project) for 'reactor' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

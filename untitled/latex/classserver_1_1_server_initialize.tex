@@ -1,0 +1,107 @@
+\hypertarget{classserver_1_1_server_initialize}{\section{server.\-Server\-Initialize 클래스 참조}
+\label{classserver_1_1_server_initialize}\index{server.\-Server\-Initialize@{server.\-Server\-Initialize}}
+}
+
+
+server.\-Server\-Initialize에 대한 협력 다이어그램\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{classserver_1_1_server_initialize__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classserver_1_1_server_initialize_ac00ce4d8c80d0da9e5c4011101f8ed28}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Private 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classserver_1_1_server_initialize_aecdc0f2a4dbf79a19b710fda1fdcf554}{dispatch} ()
+\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classserver_1_1_reactor}{Reactor} \hyperlink{classserver_1_1_server_initialize_a16faf593fd3a106821a301c4d5089ee5}{reactor}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+서버 초기화 클래스 
+
+Server\-Initialize.\-java 파일의 11 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{멤버 함수 문서화}
+\hypertarget{classserver_1_1_server_initialize_aecdc0f2a4dbf79a19b710fda1fdcf554}{\index{server\-::\-Server\-Initialize@{server\-::\-Server\-Initialize}!dispatch@{dispatch}}
+\index{dispatch@{dispatch}!server::ServerInitialize@{server\-::\-Server\-Initialize}}
+\subsubsection[{dispatch}]{\setlength{\rightskip}{0pt plus 5cm}void server.\-Server\-Initialize.\-dispatch (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classserver_1_1_server_initialize_aecdc0f2a4dbf79a19b710fda1fdcf554}
+Reactor를 초기화하고 이벤트 핸들러를 등록한다. Reactor에 이벤트 핸들링을 명령한다. 
+\begin{DoxyParams}{매개변수}
+{\em @return} & Nothing \\
+\hline
+\end{DoxyParams}
+
+
+Server\-Initialize.\-java 파일의 19 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+19                             \{
+20         \hyperlink{classserver_1_1_server_initialize_a16faf593fd3a106821a301c4d5089ee5}{reactor} = \textcolor{keyword}{new} Reactor();
+21 
+22         reactor.registerHandler(\textcolor{keyword}{new} AEventHandler());
+23         reactor.registerHandler(\textcolor{keyword}{new} BEventHandler());
+24 
+25         \textcolor{keywordflow}{try} \{
+26             reactor.handle\_events();
+27         \} \textcolor{keywordflow}{catch} (IOException e) \{
+28             e.printStackTrace();
+29         \}
+30     \}
+\end{DoxyCode}
+\hypertarget{classserver_1_1_server_initialize_ac00ce4d8c80d0da9e5c4011101f8ed28}{\index{server\-::\-Server\-Initialize@{server\-::\-Server\-Initialize}!main@{main}}
+\index{main@{main}!server::ServerInitialize@{server\-::\-Server\-Initialize}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void server.\-Server\-Initialize.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classserver_1_1_server_initialize_ac00ce4d8c80d0da9e5c4011101f8ed28}
+메인 구문. server를 초기화한다. 
+\begin{DoxyParams}{매개변수}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+
+
+Server\-Initialize.\-java 파일의 36 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+36                                            \{
+37         ServerInitialize serverInitialize = \textcolor{keyword}{new} ServerInitialize();
+38         serverInitialize.dispatch();
+39     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 데이타 문서화}
+\hypertarget{classserver_1_1_server_initialize_a16faf593fd3a106821a301c4d5089ee5}{\index{server\-::\-Server\-Initialize@{server\-::\-Server\-Initialize}!reactor@{reactor}}
+\index{reactor@{reactor}!server::ServerInitialize@{server\-::\-Server\-Initialize}}
+\subsubsection[{reactor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reactor} server.\-Server\-Initialize.\-reactor\hspace{0.3cm}{\ttfamily [private]}}}\label{classserver_1_1_server_initialize_a16faf593fd3a106821a301c4d5089ee5}
+
+
+Server\-Initialize.\-java 파일의 12 번째 라인에서 정의되었습니다.
+
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\-:\begin{DoxyCompactItemize}
+\item 
+src/server/\hyperlink{_server_initialize_8java}{Server\-Initialize.\-java}\end{DoxyCompactItemize}

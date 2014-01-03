@@ -6,42 +6,39 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * 이벤트가 발생가 발생할 때, 이벤트를 디코딩하여 적절한 핸들러에 전달한다.
+ * @brief 이벤트를 디코딩하여 적절한 핸들러에 전달한다.
+ * @details 이벤트가 발생하면 header와 data 부분으로 나눈다. 이중 header는 적절한 handler를 찾는데 쓰이고, data는 handler에 전달한다.
  */
 public class Demultiplexer {
     private ServerSocket serverSocket;
+    private final int HEADER_SIZE = 6;
 
     /**
-     * 생성자. 서버 소켓을 생성한다.
-     * @param
-     * @throws IOException
+     * @brief 생성자.
+     * @details 서버 소켓을 생성한다.
      * @return Nothing
+     * @throws IOException IOException 발생시 던진다.
      */
     public Demultiplexer() throws IOException {
         serverSocket = new ServerSocket(5000);
     }
 
     /**
-     * 이벤트가 발생할 때, header / data 만 나눠주는 parsing(decoding)역할을 하는 거지. 
+     * @brief 이벤트 발생시 Demultiplex 한다.
+     * @details 이벤트 발생시, header와 data로 나눈다. 이중 header는 적절한 handler를 찾는데 쓰이고, data는 handler에 전달한다.
      * @param handlers Reactor에 등록된 핸들맵 객체.
-     * @throws IOException
      * @return Nothing
+     * @throws IOException IOException 발생시 던진다.
      */
     public void select(HandleMap handlers) throws IOException {
         Socket socket = serverSocket.accept();
         InputStream inputStream = socket.getInputStream();
 
-        byte[] buffer = new byte[6];
-        //byte[] buffer = new byte[HeaderSize];로 바꾸렴. 
-        
+        byte[] buffer = new byte[HEADER_SIZE];
         inputStream.read(buffer);
         String header = new String(buffer);
 
-        buffer = new byte[1024];
-        inputStream.read(buffer);
-        String body = new String(buffer);
-
-        handlers.get(header).handleEvents(body);
+        handlers.get(header).handleEvent(inputStream);
     }
 }
 

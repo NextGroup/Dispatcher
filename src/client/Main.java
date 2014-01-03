@@ -12,18 +12,17 @@ public class Main {
             {
                 Socket socket = new Socket("127.0.0.1", 5000);
                 OutputStream out = socket.getOutputStream();
-                out.write("0x5001|김동국|21|343434".getBytes());
+                out.write("0x5001|김동국|22".getBytes());
                 socket.close();
             }
             {
                 Socket socket = new Socket("127.0.0.1", 5000);
                 OutputStream out = socket.getOutputStream();
 
-                out.write("0x6001|대한민국|서울".getBytes());
+                out.write("0x6001|dongkuk5411|ehdrnrcjswo1!|김동국|22|남성".getBytes());
                 socket.close();
             }
             Thread.sleep(1000);
         }
     }
-
 }

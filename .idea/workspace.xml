@@ -70,36 +70,16 @@
       <file leaf-file-name="Reactor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Reactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="855">
+            <state line="44" column="0" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demultiplexer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Demultiplexer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="128" selection-end="180" vertical-scroll-proportion="0.09950249" vertical-offset="0" max-vertical-offset="720">
-              <folding>
-                <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/HandleMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reactor.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reactor.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+            <state line="40" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -108,16 +88,34 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/event_handler/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="705">
+            <state line="15" column="0" selection-start="275" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerInitialize.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/ServerInitialize.java">
+      <file leaf-file-name="SayHelloEventHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="8" column="30" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="5" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateProfileEventHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="5" selection-start="551" selection-end="551" vertical-scroll-proportion="0.101198405" vertical-offset="224" max-vertical-offset="975">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,19 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BEventHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
+      <file leaf-file-name="ServerInitialize.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/ServerInitialize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AEventHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="510">
+            <state line="28" column="21" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -155,7 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/server/ParseList.java" />
         <option value="$PROJECT_DIR$/src/server/ParseVO.java" />
-        <option value="$PROJECT_DIR$/src/client/Main.java" />
         <option value="$PROJECT_DIR$/src/server/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/server/Service.java" />
         <option value="$PROJECT_DIR$/src/server/BService.java" />
@@ -175,20 +163,22 @@
         <option value="$PROJECT_DIR$/src/server/Main.java" />
         <option value="$PROJECT_DIR$/src/server/Demux.java" />
         <option value="$PROJECT_DIR$/src/server/Handle.java" />
-        <option value="$PROJECT_DIR$/src/server/HandleMap.java" />
-        <option value="$PROJECT_DIR$/src/server/Reactor.java" />
-        <option value="$PROJECT_DIR$/src/server/event_handler/BEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/server/event_handler/AEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/server/event_handler/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/server/ServerInitialize.java" />
+        <option value="$PROJECT_DIR$/src/server/Reactor.java" />
+        <option value="$PROJECT_DIR$/src/server/HandleMap.java" />
+        <option value="$PROJECT_DIR$/src/server/event_handler/AEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/event_handler/BEventHandler.java" />
         <option value="$PROJECT_DIR$/src/server/Demultiplexer.java" />
+        <option value="$PROJECT_DIR$/src/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/server/event_handler/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="54" />
-    <option name="width" value="1024" />
-    <option name="height" value="697" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,6 +222,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,7 +301,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -321,7 +311,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -399,6 +389,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ServerInitialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.ServerInitialize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="reactor" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -433,6 +439,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -458,19 +477,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -526,16 +532,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
       <item index="2" class="java.lang.String" itemvalue="Application.Reactor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ServerInitialize" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Reactor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServerInitialize" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Reactor" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -553,8 +561,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="54" width="1024" height="697" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -571,15 +579,15 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29003906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4775353" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992298" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -603,6 +611,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/HandleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ServerInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Reactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="128" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/HandleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ServerInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="750">
@@ -620,23 +726,23 @@
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="495">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,13 +763,11 @@
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="25" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="690">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="555">
           <folding />
@@ -677,40 +781,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="600">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="10" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="690">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="615">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +825,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="615">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,13 +851,11 @@
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="675">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="13" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="570">
           <folding />
@@ -768,13 +872,11 @@
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="12" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="615">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="13" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="570">
           <folding />
@@ -791,17 +893,13 @@
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="615">
-          <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="17" column="55" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
@@ -809,69 +907,65 @@
         <state line="401" column="13" selection-start="14975" selection-end="14975" vertical-scroll-proportion="0.8122503" vertical-offset="5060" max-vertical-offset="17130" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Main.java">
+    <entry file="file://$PROJECT_DIR$/reactor.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.2596538" vertical-offset="0" max-vertical-offset="751" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/HandleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="133" selection-end="133" vertical-scroll-proportion="0.11984021" vertical-offset="0" max-vertical-offset="751">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/HandleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reactor.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+        <state line="44" column="0" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/ServerInitialize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/BEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="28" column="21" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/event_handler/AEventHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="26" column="5" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Demultiplexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="128" selection-end="180" vertical-scroll-proportion="0.09950249" vertical-offset="0" max-vertical-offset="720">
+        <state line="40" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="275" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/SayHelloEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="30" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/event_handler/UpdateProfileEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="5" selection-start="551" selection-end="551" vertical-scroll-proportion="0.101198405" vertical-offset="224" max-vertical-offset="975">
           <folding>
-            <marker date="1388305026000" expanded="true" signature="547:606" placeholder="/**...*/" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

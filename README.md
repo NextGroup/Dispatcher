@@ -29,7 +29,7 @@
 ##Advanced Topic
 
 ###5. Thread Pool 방식을 Boss Thread 방식에서 Leader Follower로 교체 가능하게 설계 해라.
-   http://book.javanb.com/java-threads-3rd/jthreads3-CHP-12-SECT-1.html
+   * 참고 자료 http://book.javanb.com/java-threads-3rd/jthreads3-CHP-12-SECT-1.htmlㅁㅊ
 
 ###6. Thread Pool을 관리하는 Watch Dog을 개발해라. 
 

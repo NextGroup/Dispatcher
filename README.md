@@ -2,11 +2,11 @@
 
 ## 공통 수업
 
-### 1. 기본 디스패처 
+### 1. 기본 Dispatcher 이해하고 돌려보기
 * 사이텍 미디어 예제를 잘 이해하는 것. 
 
 
-### 2. Reactor
+### 2. 프로토콜 추가에 유연한 Dispathcer (Reactor)
 * 프로토콜이 추가 될때마다 switch문에 계속 코드를 추가해야할까? 
 * 해결 방안으로 설명하는 Reactor 패턴 (Protocol 도입 , EventHandler, Handle Map 구축 위주로) 
 
@@ -20,7 +20,7 @@
 * log4j 사용법 소개 
 * 실제 Dispatcher패턴에 적용해 보자. 
 
-### 5. 비동기 Dispatcher도 만들어 보자. (동기/비동기 다되어야 함)
+### 5. 비동기 Dispatcher도 만들어 보자. (동기/비동기 다되어야 함 - Proactor)
 * 기존 동기와 비동기가 동시에 동작하는 서버 만들어 보자. 
 * xml 설정 파일에서 동기, 비동기 두개의 ip,port 정보를 설정하면, 서비스 시작시 읽어오게 만들기
 

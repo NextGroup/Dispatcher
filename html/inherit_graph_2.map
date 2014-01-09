@@ -1,5 +1,5 @@
 <map id="그래픽컬한 클래스 계통도" name="그래픽컬한 클래스 계통도">
-<area shape="rect" id="node1" href="$classserver_1_1event__handler_1_1_event_handler.html" title="server.event_handler.Event\lHandler" alt="" coords="6,39,189,83"/>
-<area shape="rect" id="node2" href="$classserver_1_1event__handler_1_1_a_event_handler.html" title="server.event_handler.AEvent\lHandler" alt="" coords="237,5,429,49"/>
-<area shape="rect" id="node3" href="$classserver_1_1event__handler_1_1_b_event_handler.html" title="server.event_handler.BEvent\lHandler" alt="" coords="237,73,429,117"/>
+<area shape="rect" id="node1" href="$interfaceserver_1_1event__handler_1_1_event_handler.html" title="이벤트 핸들러의 인터페이스. " alt="" coords="6,39,189,83"/>
+<area shape="rect" id="node2" href="$classserver_1_1event__handler_1_1_say_hello_event_handler.html" title="SayHello 이벤트를 처리할 핸들러. " alt="" coords="247,5,419,49"/>
+<area shape="rect" id="node3" href="$classserver_1_1event__handler_1_1_update_profile_event_handler.html" title="UpdateProfile 이벤트를 처리할 핸들러. " alt="" coords="237,73,429,117"/>
 </map>

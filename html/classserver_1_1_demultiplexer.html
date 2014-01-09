@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: server.Demultiplexer 클래스 참조</title>
+<title>Reactor: server.Demultiplexer 클래스 참조</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Reactor
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -111,30 +112,36 @@ $(document).ready(function(){initNavTree('classserver_1_1_demultiplexer.html',''
 <div class="title">server.Demultiplexer 클래스 참조</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>이벤트를 디코딩하여 적절한 핸들러에 전달한다.  
+ <a href="classserver_1_1_demultiplexer.html#details">더 자세히 ...</a></p>
 <div class="dynheader">
 server.Demultiplexer에 대한 협력 다이어그램:</div>
 <div class="dyncontent">
-<div class="center"><img src="classserver_1_1_demultiplexer__coll__graph.jpg" border="0" usemap="#server_8_demultiplexer_coll__map" alt="Collaboration graph"/></div>
-<map name="server_8_demultiplexer_coll__map" id="server_8_demultiplexer_coll__map">
-</map>
+<div class="center"><img src="classserver_1_1_demultiplexer__coll__graph.png" border="0" usemap="#server_8_demultiplexer_coll__map" alt="Collaboration graph"/></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 멤버 함수</h2></td></tr>
 <tr class="memitem:a29f6adc4249c7e6603c84821ba994159"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserver_1_1_demultiplexer.html#a29f6adc4249c7e6603c84821ba994159">Demultiplexer</a> ()  throws IOException </td></tr>
+<tr class="memdesc:a29f6adc4249c7e6603c84821ba994159"><td class="mdescLeft">&#160;</td><td class="mdescRight">생성자.  <a href="#a29f6adc4249c7e6603c84821ba994159">더 자세히 ...</a><br/></td></tr>
 <tr class="separator:a29f6adc4249c7e6603c84821ba994159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac73b7d090155c7ef0112ea3718162a13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserver_1_1_demultiplexer.html#ac73b7d090155c7ef0112ea3718162a13">select</a> (<a class="el" href="classserver_1_1_handle_map.html">HandleMap</a> handlers)  throws IOException </td></tr>
+<tr class="memdesc:ac73b7d090155c7ef0112ea3718162a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">이벤트 발생시 Demultiplex 한다.  <a href="#ac73b7d090155c7ef0112ea3718162a13">더 자세히 ...</a><br/></td></tr>
 <tr class="separator:ac73b7d090155c7ef0112ea3718162a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 속성</h2></td></tr>
 <tr class="memitem:a45a45c637b717c6d3114e8f3ade5b477"><td class="memItemLeft" align="right" valign="top">ServerSocket&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477">serverSocket</a></td></tr>
 <tr class="separator:a45a45c637b717c6d3114e8f3ade5b477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea070faa805aef528fe606091b2d25b2"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classserver_1_1_demultiplexer.html#aea070faa805aef528fe606091b2d25b2">HEADER_SIZE</a> = 6</td></tr>
+<tr class="separator:aea070faa805aef528fe606091b2d25b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
-<div class="textblock"><p>이벤트가 발생가 발생할 때, 이벤트를 디코딩하여 적절한 핸들러에 전달한다. </p>
+<div class="textblock"><p>이벤트를 디코딩하여 적절한 핸들러에 전달한다. </p>
+<p>이벤트가 발생하면 header와 data 부분으로 나눈다. 이중 header는 적절한 handler를 찾는데 쓰이고, data는 handler에 전달한다. </p>
 
-<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00011">11</a> 번째 라인에서 정의되었습니다.</p>
+<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00012">12</a> 번째 라인에서 정의되었습니다.</p>
 </div><h2 class="groupheader">생성자 &amp; 소멸자 문서화</h2>
 <a class="anchor" id="a29f6adc4249c7e6603c84821ba994159"></a>
 <div class="memitem">
@@ -148,20 +155,22 @@ Private 속성</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>생성자. 서버 소켓을 생성한다. </p>
-<dl class="params"><dt>매개변수</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">@throws</td><td>IOException </td></tr>
+
+<p>생성자. </p>
+<p>서버 소켓을 생성한다. </p>
+<dl class="section return"><dt>반환값</dt><dd>Nothing </dd></dl>
+<dl class="exception"><dt>예외</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td>IOException 발생시 던진다. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>반환값</dt><dd>Nothing </dd></dl>
 
-<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00020">20</a> 번째 라인에서 정의되었습니다.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                              {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477">serverSocket</a> = <span class="keyword">new</span> ServerSocket(5000);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
-<div class="ttc" id="classserver_1_1_demultiplexer_html_a45a45c637b717c6d3114e8f3ade5b477"><div class="ttname"><a href="classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477">server.Demultiplexer.serverSocket</a></div><div class="ttdeci">ServerSocket serverSocket</div><div class="ttdef"><b>Definition:</b> <a href="_demultiplexer_8java_source.html#l00012">Demultiplexer.java:12</a></div></div>
+<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00022">22</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                              {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477">serverSocket</a> = <span class="keyword">new</span> ServerSocket(5000);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="ttc" id="classserver_1_1_demultiplexer_html_a45a45c637b717c6d3114e8f3ade5b477"><div class="ttname"><a href="classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477">server.Demultiplexer.serverSocket</a></div><div class="ttdeci">ServerSocket serverSocket</div><div class="ttdef"><b>Definition:</b> <a href="_demultiplexer_8java_source.html#l00013">Demultiplexer.java:13</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -179,40 +188,61 @@ Private 속성</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>이벤트가 발생할 때, 디코딩하여 적절한 핸들러에 전달한다. </p>
+
+<p>이벤트 발생시 Demultiplex 한다. </p>
+<p>이벤트 발생시, header와 data로 나눈다. 이중 header는 적절한 handler를 찾는데 쓰이고, data는 handler에 전달한다. </p>
 <dl class="params"><dt>매개변수</dt><dd>
   <table class="params">
     <tr><td class="paramname">handlers</td><td>Reactor에 등록된 핸들맵 객체. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>반환값</dt><dd>Nothing </dd></dl>
 <dl class="exception"><dt>예외</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">IOException</td><td>IOException 발생시 던진다. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>반환값</dt><dd>Nothing </dd></dl>
 
-<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00030">30</a> 번째 라인에서 정의되었습니다.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                                              {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        Socket socket = serverSocket.accept();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        InputStream inputStream = socket.getInputStream();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        byte[] buffer = <span class="keyword">new</span> byte[6];</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        inputStream.read(buffer);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        String header = <span class="keyword">new</span> String(buffer);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        buffer = <span class="keyword">new</span> byte[1024];</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        inputStream.read(buffer);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        String body = <span class="keyword">new</span> String(buffer);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        handlers.get(header).handleEvents(body);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00033">33</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                              {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Socket socket = serverSocket.accept();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        InputStream inputStream = socket.getInputStream();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        byte[] buffer = <span class="keyword">new</span> byte[<a class="code" href="classserver_1_1_demultiplexer.html#aea070faa805aef528fe606091b2d25b2">HEADER_SIZE</a>];</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        inputStream.read(buffer);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        String header = <span class="keyword">new</span> String(buffer);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        handlers.get(header).handleEvent(inputStream);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="ttc" id="classserver_1_1_demultiplexer_html_aea070faa805aef528fe606091b2d25b2"><div class="ttname"><a href="classserver_1_1_demultiplexer.html#aea070faa805aef528fe606091b2d25b2">server.Demultiplexer.HEADER_SIZE</a></div><div class="ttdeci">final int HEADER_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="_demultiplexer_8java_source.html#l00014">Demultiplexer.java:14</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">멤버 데이타 문서화</h2>
+<a class="anchor" id="aea070faa805aef528fe606091b2d25b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int server.Demultiplexer.HEADER_SIZE = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00014">14</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
 <a class="anchor" id="a45a45c637b717c6d3114e8f3ade5b477"></a>
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +261,7 @@ Private 속성</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00012">12</a> 번째 라인에서 정의되었습니다.</p>
+<p><a class="el" href="_demultiplexer_8java_source.html">Demultiplexer.java</a> 파일의 <a class="el" href="_demultiplexer_8java_source.html#l00013">13</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
@@ -244,7 +274,7 @@ Private 속성</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceserver.html">server</a></li><li class="navelem"><a class="el" href="classserver_1_1_demultiplexer.html">Demultiplexer</a></li>
-    <li class="footer">생성시간 : 금 12월 27 2013 00:33:07, 프로젝트명 : My Project, 생성자 : 
+    <li class="footer">생성시간 : 화 1월 7 2014 14:22:33, 프로젝트명 : Reactor, 생성자 : 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

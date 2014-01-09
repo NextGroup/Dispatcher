@@ -1,3 +1,7 @@
+/**
+ * @namespace server.event_handler
+ * @brief event_handler 패키지
+ */
 package server.event_handler;
 
 import java.io.IOException;

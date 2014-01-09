@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['reactor',['Reactor',['../classserver_1_1_reactor.html#ad32bfcaec7e42dfd6aab98c462af98cf',1,'server::Reactor']]],
-  ['registerhandler',['registerHandler',['../classserver_1_1_reactor.html#a3e668edae20fadfc4063a83a74001fda',1,'server::Reactor']]],
-  ['removehandler',['removeHandler',['../classserver_1_1_reactor.html#a936c855c6581047687a117c0ee76a296',1,'server::Reactor']]]
+  ['sayhello',['sayHello',['../classserver_1_1event__handler_1_1_say_hello_event_handler.html#a4a7b66fe140acb1a9c9b68f1a14d166f',1,'server::event_handler::SayHelloEventHandler']]],
+  ['select',['select',['../classserver_1_1_demultiplexer.html#ac73b7d090155c7ef0112ea3718162a13',1,'server::Demultiplexer']]]
 ];

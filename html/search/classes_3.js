@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eventhandler',['EventHandler',['../classserver_1_1event__handler_1_1_event_handler.html',1,'server::event_handler']]]
+  ['main',['Main',['../classclient_1_1_main.html',1,'client']]]
 ];

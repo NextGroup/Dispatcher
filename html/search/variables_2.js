@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['serversocket',['serverSocket',['../classserver_1_1_demultiplexer.html#a45a45c637b717c6d3114e8f3ade5b477',1,'server::Demultiplexer']]]
+  ['reactor',['reactor',['../classserver_1_1_server_initialize.html#a16faf593fd3a106821a301c4d5089ee5',1,'server::ServerInitialize']]]
 ];

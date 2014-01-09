@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="10" version="2.0">
 <workbenchAdvisor/>
-<window height="697" width="1024" x="0" y="54">
+<window height="697" width="1024" x="171" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout/>
@@ -23,7 +23,9 @@
 <view id="de.odysseus.stan.eclipse.views.composition" partName="Composition">
 <viewState compressNodeLabels="true" horizontal="false" narrow="false" partition="false" policy="MIN_WEIGHT" suppressEdgeLabels="false" tanglesAlwaysVertical="true"/>
 </view>
-<view id="de.odysseus.stan.eclipse.views.couplings" partName="Couplings"/>
+<view id="de.odysseus.stan.eclipse.views.couplings" partName="Couplings">
+<viewState compressNodeLabels="true" horizontal="true" narrow="false" policy="MIN_WEIGHT" showIncoming="true" showIntermediate="false" showOutgoing="true" suppressEdgeLabels="false"/>
+</view>
 <view id="de.odysseus.stan.eclipse.views.overview" partName="Overview">
 <viewState/>
 </view>
@@ -31,7 +33,7 @@
 <viewState/>
 </view>
 <view id="de.odysseus.stan.eclipse.views.explorer" partName="Structure Explorer">
-<viewState flatPackages="false" linkWithView="true" showLibraries="false"/>
+<viewState flatPackages="false" linkWithView="false" showLibraries="false"/>
 </view>
 <view id="de.odysseus.stan.eclipse.views.sandbox" partName="Sandbox"/>
 <view id="de.odysseus.stan.eclipse.views.violations.ranking" partName="Violations">
@@ -43,7 +45,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="de.odysseus.stan.eclipse.views.composition" activePerspective="de.odysseus.stan.eclipse.perspective">
+<perspectives activePart="de.odysseus.stan.eclipse.views.explorer" activePerspective="de.odysseus.stan.eclipse.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="de.odysseus.stan.eclipse.rcp.Perspective" id="de.odysseus.stan.eclipse.perspective" label="STAN Perspective"/>
 <show_view_action id="de.odysseus.stan.eclipse.views.composition"/>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: src/server/event_handler/EventHandler.java 소스 파일</title>
+<title>Reactor: src/server/event_handler/EventHandler.java 소스 파일</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Reactor
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -104,40 +105,27 @@ $(document).ready(function(){initNavTree('_event_handler_8java_source.html','');
 <div class="title">EventHandler.java</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="_event_handler_8java.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>server.event_handler;</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.util.StringTokenizer;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classserver_1_1event__handler_1_1_event_handler.html">    8</a></span>&#160;<span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="classserver_1_1event__handler_1_1_event_handler.html">EventHandler</a> {</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classserver_1_1event__handler_1_1_event_handler.html#a5d28300da533ce9dad96d26cc0aa8eda">   14</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classserver_1_1event__handler_1_1_event_handler.html#a5d28300da533ce9dad96d26cc0aa8eda">handleEvents</a>(String params) {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        String[] arr = <span class="keyword">new</span> String[2];</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        StringTokenizer token = <span class="keyword">new</span> StringTokenizer(params, <span class="stringliteral">&quot;|&quot;</span>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">int</span> i = 0;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">while</span> (token.hasMoreTokens())</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            arr[i++] = token.nextToken();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        String str1 = arr[0];</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        String str2 = arr[1];</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classserver_1_1event__handler_1_1_event_handler.html#afc87125b5bd2e5d255a4fd0af12bebcb">printService</a>(str1, str2);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">public</span> <span class="keyword">abstract</span> String <a class="code" href="classserver_1_1event__handler_1_1_event_handler.html#a11ebb67c402f4ce26cd18c3a0217f169">getHandle</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code" href="classserver_1_1event__handler_1_1_event_handler.html#afc87125b5bd2e5d255a4fd0af12bebcb">printService</a>(String str1, String str2);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="ttc" id="classserver_1_1event__handler_1_1_event_handler_html_a5d28300da533ce9dad96d26cc0aa8eda"><div class="ttname"><a href="classserver_1_1event__handler_1_1_event_handler.html#a5d28300da533ce9dad96d26cc0aa8eda">server.event_handler.EventHandler.handleEvents</a></div><div class="ttdeci">void handleEvents(String params)</div><div class="ttdef"><b>Definition:</b> <a href="_event_handler_8java_source.html#l00014">EventHandler.java:14</a></div></div>
-<div class="ttc" id="classserver_1_1event__handler_1_1_event_handler_html"><div class="ttname"><a href="classserver_1_1event__handler_1_1_event_handler.html">server.event_handler.EventHandler</a></div><div class="ttdef"><b>Definition:</b> <a href="_event_handler_8java_source.html#l00008">EventHandler.java:8</a></div></div>
-<div class="ttc" id="classserver_1_1event__handler_1_1_event_handler_html_afc87125b5bd2e5d255a4fd0af12bebcb"><div class="ttname"><a href="classserver_1_1event__handler_1_1_event_handler.html#afc87125b5bd2e5d255a4fd0af12bebcb">server.event_handler.EventHandler.printService</a></div><div class="ttdeci">abstract void printService(String str1, String str2)</div></div>
-<div class="ttc" id="classserver_1_1event__handler_1_1_event_handler_html_a11ebb67c402f4ce26cd18c3a0217f169"><div class="ttname"><a href="classserver_1_1event__handler_1_1_event_handler.html#a11ebb67c402f4ce26cd18c3a0217f169">server.event_handler.EventHandler.getHandle</a></div><div class="ttdeci">abstract String getHandle()</div></div>
+<a href="_event_handler_8java.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">package </span>server.event_handler;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">import</span> java.io.IOException;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> java.io.InputStream;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="interfaceserver_1_1event__handler_1_1_event_handler.html">   13</a></span>&#160;<span class="keyword">public</span> <span class="keyword">interface </span><a class="code" href="interfaceserver_1_1event__handler_1_1_event_handler.html">EventHandler</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span> String <a class="code" href="interfaceserver_1_1event__handler_1_1_event_handler.html#a6e66a3c2c3c457a720bd1bd06b4356ec">getHandle</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="interfaceserver_1_1event__handler_1_1_event_handler.html#a9b103dcdc88adff0e084473ba36fe865">handleEvent</a>(InputStream data) <span class="keywordflow">throws</span> IOException;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="ttc" id="interfaceserver_1_1event__handler_1_1_event_handler_html"><div class="ttname"><a href="interfaceserver_1_1event__handler_1_1_event_handler.html">server.event_handler.EventHandler</a></div><div class="ttdoc">이벤트 핸들러의 인터페이스. </div><div class="ttdef"><b>Definition:</b> <a href="_event_handler_8java_source.html#l00013">EventHandler.java:13</a></div></div>
+<div class="ttc" id="interfaceserver_1_1event__handler_1_1_event_handler_html_a9b103dcdc88adff0e084473ba36fe865"><div class="ttname"><a href="interfaceserver_1_1event__handler_1_1_event_handler.html#a9b103dcdc88adff0e084473ba36fe865">server.event_handler.EventHandler.handleEvent</a></div><div class="ttdeci">void handleEvent(InputStream data)</div><div class="ttdoc">핸들러에 데이터를 파싱하여 처리한다. </div></div>
+<div class="ttc" id="interfaceserver_1_1event__handler_1_1_event_handler_html_a6e66a3c2c3c457a720bd1bd06b4356ec"><div class="ttname"><a href="interfaceserver_1_1event__handler_1_1_event_handler.html#a6e66a3c2c3c457a720bd1bd06b4356ec">server.event_handler.EventHandler.getHandle</a></div><div class="ttdeci">String getHandle()</div><div class="ttdoc">이벤트 핸들러의 키값을 반환한다. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_075bb3ff235063c77951cd176d15a741.html">server</a></li><li class="navelem"><a class="el" href="dir_fae441e28b1ec76447095e81204212b5.html">event_handler</a></li><li class="navelem"><a class="el" href="_event_handler_8java.html">EventHandler.java</a></li>
-    <li class="footer">생성시간 : 금 12월 27 2013 00:33:07, 프로젝트명 : My Project, 생성자 : 
+    <li class="footer">생성시간 : 화 1월 7 2014 14:22:33, 프로젝트명 : Reactor, 생성자 : 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

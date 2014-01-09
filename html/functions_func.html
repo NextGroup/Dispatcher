@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>My Project: 클래스 멤버 - 함수</title>
+<title>Reactor: 클래스 멤버 - 함수</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Reactor
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -118,24 +119,21 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="classserver_1_1_server_initialize.html#aecdc0f2a4dbf79a19b710fda1fdcf554">server.ServerInitialize</a>
 </li>
 <li>getHandle()
-: <a class="el" href="classserver_1_1event__handler_1_1_a_event_handler.html#a7c98e1d240b5afaf1b4ffbfd18e2f048">server.event_handler.AEventHandler</a>
-, <a class="el" href="classserver_1_1event__handler_1_1_b_event_handler.html#a70f6eebfe960f4dd8bf0a3ecad7b0a0e">server.event_handler.BEventHandler</a>
-, <a class="el" href="classserver_1_1event__handler_1_1_event_handler.html#a11ebb67c402f4ce26cd18c3a0217f169">server.event_handler.EventHandler</a>
+: <a class="el" href="interfaceserver_1_1event__handler_1_1_event_handler.html#a6e66a3c2c3c457a720bd1bd06b4356ec">server.event_handler.EventHandler</a>
+, <a class="el" href="classserver_1_1event__handler_1_1_say_hello_event_handler.html#afd6fc20f2320ef9335bfdffb352380a8">server.event_handler.SayHelloEventHandler</a>
+, <a class="el" href="classserver_1_1event__handler_1_1_update_profile_event_handler.html#a2fe659402302ba5254fbd5db5aa37f49">server.event_handler.UpdateProfileEventHandler</a>
 </li>
 <li>handle_events()
 : <a class="el" href="classserver_1_1_reactor.html#a6049200905b17b4aba0de79b6df0f5d2">server.Reactor</a>
 </li>
-<li>handleEvents()
-: <a class="el" href="classserver_1_1event__handler_1_1_event_handler.html#a5d28300da533ce9dad96d26cc0aa8eda">server.event_handler.EventHandler</a>
+<li>handleEvent()
+: <a class="el" href="interfaceserver_1_1event__handler_1_1_event_handler.html#a9b103dcdc88adff0e084473ba36fe865">server.event_handler.EventHandler</a>
+, <a class="el" href="classserver_1_1event__handler_1_1_say_hello_event_handler.html#afbbcd66f6fb06186e6aeff5f51111252">server.event_handler.SayHelloEventHandler</a>
+, <a class="el" href="classserver_1_1event__handler_1_1_update_profile_event_handler.html#a48a8c2c909585327d6ea0c5ecc06f6ee">server.event_handler.UpdateProfileEventHandler</a>
 </li>
 <li>main()
 : <a class="el" href="classclient_1_1_main.html#a757d493b68aa66d3d3c2e71a1c6e4c0e">client.Main</a>
 , <a class="el" href="classserver_1_1_server_initialize.html#ac00ce4d8c80d0da9e5c4011101f8ed28">server.ServerInitialize</a>
-</li>
-<li>printService()
-: <a class="el" href="classserver_1_1event__handler_1_1_a_event_handler.html#adb8e52f8efa68b7ffcab48962fb50efc">server.event_handler.AEventHandler</a>
-, <a class="el" href="classserver_1_1event__handler_1_1_b_event_handler.html#a68fcd12b9a8814ef86cb2ede1f9165bb">server.event_handler.BEventHandler</a>
-, <a class="el" href="classserver_1_1event__handler_1_1_event_handler.html#afc87125b5bd2e5d255a4fd0af12bebcb">server.event_handler.EventHandler</a>
 </li>
 <li>Reactor()
 : <a class="el" href="classserver_1_1_reactor.html#ad32bfcaec7e42dfd6aab98c462af98cf">server.Reactor</a>
@@ -146,8 +144,14 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>removeHandler()
 : <a class="el" href="classserver_1_1_reactor.html#a936c855c6581047687a117c0ee76a296">server.Reactor</a>
 </li>
+<li>sayHello()
+: <a class="el" href="classserver_1_1event__handler_1_1_say_hello_event_handler.html#a4a7b66fe140acb1a9c9b68f1a14d166f">server.event_handler.SayHelloEventHandler</a>
+</li>
 <li>select()
 : <a class="el" href="classserver_1_1_demultiplexer.html#ac73b7d090155c7ef0112ea3718162a13">server.Demultiplexer</a>
+</li>
+<li>updateProfile()
+: <a class="el" href="classserver_1_1event__handler_1_1_update_profile_event_handler.html#a601bec62fe1c6e7d783de2a824a20fb7">server.event_handler.UpdateProfileEventHandler</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -155,7 +159,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">생성시간 : 금 12월 27 2013 00:33:07, 프로젝트명 : My Project, 생성자 : 
+    <li class="footer">생성시간 : 화 1월 7 2014 14:22:33, 프로젝트명 : Reactor, 생성자 : 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

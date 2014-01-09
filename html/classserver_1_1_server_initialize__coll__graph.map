@@ -1,4 +1,4 @@
 <map id="server.ServerInitialize" name="server.ServerInitialize">
-<area shape="rect" id="node2" href="$classserver_1_1_reactor.html" title="{server.Reactor\n||+ Reactor()\l+ handle_events()\l+ registerHandler()\l+ removeHandler()\l}" alt="" coords="22,302,153,431"/>
-<area shape="rect" id="node3" href="$classserver_1_1_handle_map.html" title="{server.HandleMap\n||}" alt="" coords="23,155,152,237"/>
+<area shape="rect" id="node2" href="$classserver_1_1_reactor.html" title="이벤트 핸들러를 관리하는 객체. " alt="" coords="22,302,153,431"/>
+<area shape="rect" id="node3" href="$classserver_1_1_handle_map.html" title="핸들과 이벤트 핸들러를 해쉬 형태로 저장하는 객체. " alt="" coords="23,155,152,237"/>
 </map>

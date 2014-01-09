@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['handle_5fevents',['handle_events',['../classserver_1_1_reactor.html#a6049200905b17b4aba0de79b6df0f5d2',1,'server::Reactor']]],
-  ['handleevents',['handleEvents',['../classserver_1_1event__handler_1_1_event_handler.html#a5d28300da533ce9dad96d26cc0aa8eda',1,'server::event_handler::EventHandler']]],
-  ['handlemap',['HandleMap',['../classserver_1_1_handle_map.html',1,'server']]],
-  ['handlemap_2ejava',['HandleMap.java',['../_handle_map_8java.html',1,'']]],
-  ['handlers',['handlers',['../classserver_1_1_reactor.html#a68f3383c5eb092e372bcf4f39015334f',1,'server::Reactor']]]
+  ['reactor',['Reactor',['../classserver_1_1_reactor.html',1,'server']]],
+  ['reactor',['Reactor',['../classserver_1_1_reactor.html#ad32bfcaec7e42dfd6aab98c462af98cf',1,'server.Reactor.Reactor()'],['../classserver_1_1_server_initialize.html#a16faf593fd3a106821a301c4d5089ee5',1,'server.ServerInitialize.reactor()']]],
+  ['reactor_2ejava',['Reactor.java',['../_reactor_8java.html',1,'']]],
+  ['registerhandler',['registerHandler',['../classserver_1_1_reactor.html#a3e668edae20fadfc4063a83a74001fda',1,'server::Reactor']]],
+  ['removehandler',['removeHandler',['../classserver_1_1_reactor.html#a936c855c6581047687a117c0ee76a296',1,'server::Reactor']]]
 ];

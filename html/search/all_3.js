@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['demultiplexer',['Demultiplexer',['../classserver_1_1_demultiplexer.html',1,'server']]],
-  ['demultiplexer',['Demultiplexer',['../classserver_1_1_demultiplexer.html#a29f6adc4249c7e6603c84821ba994159',1,'server::Demultiplexer']]],
-  ['demultiplexer_2ejava',['Demultiplexer.java',['../_demultiplexer_8java.html',1,'']]],
-  ['dispatch',['dispatch',['../classserver_1_1_server_initialize.html#aecdc0f2a4dbf79a19b710fda1fdcf554',1,'server::ServerInitialize']]]
+  ['gethandle',['getHandle',['../interfaceserver_1_1event__handler_1_1_event_handler.html#a6e66a3c2c3c457a720bd1bd06b4356ec',1,'server.event_handler.EventHandler.getHandle()'],['../classserver_1_1event__handler_1_1_say_hello_event_handler.html#afd6fc20f2320ef9335bfdffb352380a8',1,'server.event_handler.SayHelloEventHandler.getHandle()'],['../classserver_1_1event__handler_1_1_update_profile_event_handler.html#a2fe659402302ba5254fbd5db5aa37f49',1,'server.event_handler.UpdateProfileEventHandler.getHandle()']]]
 ];

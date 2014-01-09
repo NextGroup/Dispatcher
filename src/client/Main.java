@@ -8,6 +8,7 @@ import java.net.UnknownHostException;
 public class Main {
 
     public static void main(String[] args) throws UnknownHostException, IOException, InterruptedException {
+        System.out.println("zz");
         while (true) {
             {
                 Socket socket = new Socket("127.0.0.1", 5000);

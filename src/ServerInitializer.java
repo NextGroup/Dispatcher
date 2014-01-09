@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
@@ -11,13 +10,13 @@ import java.util.StringTokenizer;
 public class ServerInitializer {
     public static void main(String[] args) {
         try {
-            new ServerInitializer().dispatch();
+            new ServerInitializer().run();
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public void dispatch() throws IOException {
+    public void run() throws IOException {
         ServerSocket serverSocket = new ServerSocket(5000);
 
         while (true) {
@@ -32,11 +31,11 @@ public class ServerInitializer {
             inputStream.read(buffer);
             String data = new String(buffer);
 
-            execute(header, data);
+            dispatch(header, data);
         }
     }
 
-    private void execute(String header, String data) {
+    private void dispatch(String header, String data) {
         String[] params = new String[10];
         StringTokenizer token = new StringTokenizer(data, "|");
         int i = 0;

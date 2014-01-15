@@ -1,8 +1,14 @@
-import java.net.*;   // for Socket
-import java.io.*;    // for IOException and Input/OutputStream
-import java.util.*;  // for ArrayList
+package protocol;
 
-class EchoProtocol implements Runnable {
+import logger.Logger;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.ArrayList;
+
+public class EchoProtocol implements Runnable {
   static public final int BUFSIZE = 32;   // Size (in bytes) of I/O buffer
 
   private Socket clntSock;  // Connection socket

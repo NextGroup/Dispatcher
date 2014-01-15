@@ -1,7 +1,13 @@
-import java.net.*;  // for Socket and ServerSocket
-import java.io.*;   // for IOException
+package dispatcher;
 
-class PoolDispatcher implements Dispatcher {
+import logger.Logger;
+import protocol.ProtocolFactory;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class PoolDispatcher implements Dispatcher {
 
   static final String NUMTHREADS = "8";        // Default thread pool size
   static final String THREADPROP = "Threads";  // Name of thread property
@@ -27,7 +33,7 @@ class PoolDispatcher implements Dispatcher {
     }
     logger.writeEntry("Iterative server starting in main thread " + 
                     Thread.currentThread().getName());
-    // Use main thread as Nth iterative servero
+    // Use main thread as Nth iterative server
     dispatchLoop(servSock, logger, protoFactory);
     /* NOT REACHED */
   }

@@ -1,7 +1,12 @@
-import java.io.*;    // for PrintWriter and FileWriter
-import java.util.*;  // for Collection and Iterator
+package logger;
 
-class FileLogger implements Logger {
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class FileLogger implements Logger {
 
   PrintWriter out;  // Log file
 

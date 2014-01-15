@@ -1,6 +1,9 @@
-import java.util.*;  // for Collection and Iterator
+package logger;
 
-class ConsoleLogger implements Logger {
+import java.util.Collection;
+import java.util.Iterator;
+
+public class ConsoleLogger implements Logger {
   synchronized public void writeEntry(Collection entry) {
     for (Iterator line = entry.iterator(); line.hasNext();)
       System.out.println(line.next());

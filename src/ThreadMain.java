@@ -1,5 +1,9 @@
-import java.net.*;  // for ServerSocket
-import java.io.*;   // for IOException
+import dispatcher.Dispatcher;
+import logger.ConsoleLogger;
+import logger.Logger;
+import protocol.ProtocolFactory;
+
+import java.net.ServerSocket;
 
 public class ThreadMain {
 
@@ -15,8 +19,10 @@ public class ThreadMain {
 
     ServerSocket servSock = new ServerSocket(servPort);
     Logger logger = new ConsoleLogger();       // Log messages to console
+
     ProtocolFactory protoFactory = (ProtocolFactory)  // Get protocol factory
-      Class.forName(protocolName + "ProtocolFactory").newInstance();
+      Class.forName(protocolName + "protocol.ProtocolFactory").newInstance();
+
     Dispatcher dispatcher = (Dispatcher)       // Get dispatcher
       Class.forName(dispatcherName + "Dispatcher").newInstance();
 

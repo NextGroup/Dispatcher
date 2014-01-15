@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/reactor.iml" filepath="$PROJECT_DIR$/reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcpjava.iml" filepath="$PROJECT_DIR$/tcpjava.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,13 @@
-import java.net.*;  // for Socket and ServerSocket
-import java.io.*;   // for IOException
+package dispatcher;
 
-class ThreadPerDispatcher implements Dispatcher {
+import logger.Logger;
+import protocol.ProtocolFactory;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ThreadPerDispatcher implements Dispatcher {
 
   public void startDispatching(ServerSocket servSock, Logger logger,
                                ProtocolFactory protoFactory) {

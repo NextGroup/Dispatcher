@@ -1,8 +1,12 @@
-import java.net.*;   // for Socket
-import java.io.*;    // for IOException and Input/OutputStream
-import java.util.*;  // for ArrayList
+package protocol;
 
-class HTTPProtocolFactory implements ProtocolFactory {
+import logger.Logger;
+
+import java.io.*;
+import java.net.Socket;
+import java.util.ArrayList;
+
+public class HTTPProtocolFactory implements ProtocolFactory {
   private static final int BUFSIZE = 32;          // Buffer size
   private static final String DOCROOTPROP = "DocumentRoot"; // Doc root property
 

@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 /**
  * @author Michael J.Donahoo, Kenneth L.Calvert
+ * @editor Dongkuk Kim, dongkuk5411@nhnnext.org
  * @version 0.0.1
  * @brief 콘솔에 로그남기는 클래스
  * @details 콘솔에 로그를 직접 쓰는 로거 클래스이다.

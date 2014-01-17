@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 /**
  * @author Michael J.Donahoo, Kenneth L.Calvert
+ * @editor Dongkuk Kim, dongkuk5411@nhnnext.org
  * @version 0.0.1
  * @brief 에코 프로토콜을 처리하는 클래스
  * @details 클라이언트의 요청과 똑같은 내용을 전송한다.

@@ -9,6 +9,7 @@ import java.net.Socket;
 
 /**
  * @author Michael J.Donahoo, Kenneth L.Calvert
+ * @editor Dongkuk Kim, dongkuk5411@nhnnext.org
  * @version 0.0.1
  * @brief 디스패칭 전에 쓰레드를 미리 생성하는 디스패처 클래스
  * @details 클라이언트의 요청을 받기 전 미리 적절양의 쓰레드를 할당하여 이벤트를 처리하는 디스패처이다.

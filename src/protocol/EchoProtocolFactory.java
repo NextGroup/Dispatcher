@@ -6,6 +6,7 @@ import java.net.Socket;
 
 /**
  * @author Michael J.Donahoo, Kenneth L.Calvert
+ * @editor Dongkuk Kim, dongkuk5411@nhnnext.org
  * @version 0.0.1
  * @brief 에코 프로토콜을 생성하는 팩토리 클래스
  * @details 클라이언트의 요청을 처리할 에코 프로토콜 클래스를 생성한다.

@@ -1,7 +1,3 @@
-package protocol;
-
-import logger.Logger;
-
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;

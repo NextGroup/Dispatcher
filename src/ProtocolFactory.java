@@ -1,7 +1,3 @@
-package protocol;
-
-import logger.Logger;
-
 import java.net.Socket;
 
 public interface ProtocolFactory {

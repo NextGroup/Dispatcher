@@ -1,5 +1,8 @@
-import java.net.*;  // for Socket
-import java.io.*;   // for IOException and Input/OutputStream
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.net.SocketException;
 
 /**
  * @author Michael J.Donahoo, Kenneth L.Calvert

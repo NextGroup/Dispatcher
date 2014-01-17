@@ -1,5 +1,3 @@
-package logger;
-
 import java.util.Collection;
 
 public interface Logger {

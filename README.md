@@ -42,7 +42,9 @@
 ### 1. Theaad Pool을 만들고, 간단히 Watch Dog을 만들어라.
 * thread pool을 만들어라 
 * thread pool에 현재 남아 있는 thread 갯수를 체크하는 watchdog을 만들어라.
-* 현재 Pool에 남은 Thread 갯수를 기반으로 임계점 (10개)이하 Thread 가 줄어들면 Thread를 추가 생성하는 매커니즘을 넣어라. 
+* 현재 Pool에 남은 Thread 갯수를 기반으로 임계점 (10개)이하 Thread 가 줄어들면 Thread를 추가 생성하는 매커니즘을 넣어라.
+* http://javacan.tistory.com/12 
+* http://blog.naver.com/PostView.nhn?blogId=julymorning4&logNo=100192878746 
 
 
 ### 2. Thread Pool 방식을 Boss Thread -> Leader/Follower로 교체해라. 

@@ -23,6 +23,7 @@
 ### 5. 비동기 Dispatcher도 만들어 보자. (동기/비동기 다되어야 함 - Proactor)
 * 기존 동기와 비동기가 동시에 동작하는 서버 만들어 보자. 
 * xml 설정 파일에서 동기, 비동기 두개의 ip,port 정보를 설정하면, 서비스 시작시 읽어오게 만들기
+* 동기/비동기 * Blocking / Non Blocking = 4가지 모델을 다 만들어라 (Advanced) 
 
 ### 6. 다양한 프로토콜도 지원해 보자. (Acceptor-Connector)
 * 프로토콜 독립적인 Dispatcher 만들기. (JSON, XML 기반의 REST 방식 2 , 기존 Stream 형태)

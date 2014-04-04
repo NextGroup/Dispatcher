@@ -2,9 +2,9 @@
 
 ### 0. 수업시 참고할 자료들 
 * Dispathcer
- * reactor (sync io + non blocking) 디스 패처 구현할 것 
+ *reactor (sync io + non blocking) 디스 패처 구현할 것 
   * http://www.javacodegeeks.com/2012/08/io-demystified.html 에서 reactor임
- * proactor (async io + non-blocking)
+ *proactor (async io + non-blocking)
   * http://www.javacodegeeks.com/2012/08/io-demystified.html 에서 proactor임
 
 

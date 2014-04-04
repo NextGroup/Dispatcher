@@ -9,22 +9,20 @@
   * http://www.javacodegeeks.com/2012/08/io-demystified.html 에서 proactor임
 
 
-java nio
+* java nio
 
-java io vs nio http://eincs.net/2009/08/java-nio-bytebuffer-channel-file/
-java nio 패키지 설명 http://landsnail.tistory.com/entry/Java-NIO-%EC%84%A4%EB%AA%85
-java nio 잘 정리된 외국 블로그 http://tutorials.jenkov.com/java-nio/index.html
-selector - http://tutorials.jenkov.com/java-nio/selectors.html
-selector asynserverchannel을 써야 큰 의미가 있을듯
+ * java io vs nio http://eincs.net/2009/08/java-nio-bytebuffer-channel-file/
+ * java nio 패키지 설명 http://landsnail.tistory.com/entry/Java-NIO-%EC%84%A4%EB%AA%85
+ * java nio 잘 정리된 외국 블로그 http://tutorials.jenkov.com/java-nio/index.html
+ * selector - http://tutorials.jenkov.com/java-nio/selectors.html
+ * selector asynserverchannel을 써야 큰 의미가 있을듯
 
-Reactor and Proactor 구현 코드 
-http://www.javacodegeeks.com/2012/08/io-demystified.html
 
-Reactor and Proactor 의 대한 이야기 (stackoverflow)
-http://stackoverflow.com/questions/5529137/java-non-blocking-and-asynchronous-io-with-nio-nio-2-jsr203-reactor-proact
+* Reactor and Proactor 의 대한 이야기 (stackoverflow)
+ * http://stackoverflow.com/questions/5529137/java-non-blocking-and-asynchronous-io-with-nio-nio-2-jsr203-reactor-proact
 
-threadpool executor
-http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
+* threadpool executor
+ * http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
 
 ## 공통 수업
 

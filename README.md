@@ -23,11 +23,16 @@
 ### 5. 비동기 Dispatcher도 만들어 보자. (동기/비동기 다되어야 함 - Proactor)
 * 기존 동기와 비동기가 동시에 동작하는 서버 만들어 보자. 
 * xml 설정 파일에서 동기, 비동기 두개의 ip,port 정보를 설정하면, 서비스 시작시 읽어오게 만들기
-* 동기/비동기 * Blocking / Non Blocking = 4가지 모델을 다 만들어라 (Advanced) 
+* 동기/비동기 * Blocking / Non Blocking를 이해하고 동기+Blocking / 비동기 + Non Blocking 모델을 다 만들어라 (Advanced) 
 
 ### 6. 다양한 프로토콜도 지원해 보자. (Acceptor-Connector)
 * 프로토콜 독립적인 Dispatcher 만들기. (JSON, XML 기반의 REST 방식 2 , 기존 Stream 형태)
-* Event Handler는 역시 기존의 것을 건드리지 않고 재사용하고, 설정 파일에 어떤 형태의 프로토콜을 지원할지 명시하면 지원 가능하게 할것.
+  Stream 기반의 0x0101:add:3:4 
+  HTTP 기반의 XML Restful 통신  
+
+* 설정 파일에 어떤 형태의 프로토콜을 지원할지 명시하면 지원 가능하게 할것.
+   Event Handler를 추가하는것 역시 소스코드 수정이 아닌 설정 파일 변경으로 쉽게 추가/삭제 할수 있게 만들 것. 
+
 * 동작 샘플을 기반으로 위 패턴을 설명하고, WCF 동작 방식, JBOSS 동작 방식 리포트
 
 
@@ -40,19 +45,15 @@
 
 ## 고급 주제들 
 
-### 1. Theaad Pool을 만들고, 간단히 Watch Dog을 만들어라.
+### 1. Theaad Pool을 만들어라 
 * thread pool을 만들어라 
-* thread pool에 현재 남아 있는 thread 갯수를 체크하는 watchdog을 만들어라.
-* 현재 Pool에 남은 Thread 갯수를 기반으로 임계점 (10개)이하 Thread 가 줄어들면 Thread를 추가 생성하는 매커니즘을 넣어라.
+
+
 * http://javacan.tistory.com/12 
 * http://blog.naver.com/PostView.nhn?blogId=julymorning4&logNo=100192878746 
 
-
-### 2. Thread Pool 방식을 Boss Thread -> Leader/Follower로 교체해라. 
-* https://today.java.net/pub/a/today/2008/10/23/creating-a-notifying-blocking-thread-pool-executor.html
-* http://kickjava.com/src/org.apache.tomcat.util.net.index.htm
-* http://kickjava.com/src/org/apache/tomcat/util/net/LeaderFollowerWorkerThread.java.htm
+### 2. WatchDog을 만들어서 별도의 모니터링 Application을 만들어라. 
+http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
 
 
 
-### 3. WatchDog을 기반으로, 모니터링 Application을 만들어라. 

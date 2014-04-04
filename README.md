@@ -1,5 +1,31 @@
 #Dispatcher 컬리큘럼 진행 방향
 
+### 0. 수업시 참고할 자료들 
+* Dispathcer
+  * reactor (sync io + non blocking) 디스 패처 구현할 것 
+  * http://www.javacodegeeks.com/2012/08/io-demystified.html 에서 reactor임
+
+  * proactor (async io + non-blocking) 
+  * http://www.javacodegeeks.com/2012/08/io-demystified.html 에서 proactor임
+
+
+java nio
+
+java io vs nio http://eincs.net/2009/08/java-nio-bytebuffer-channel-file/
+java nio 패키지 설명 http://landsnail.tistory.com/entry/Java-NIO-%EC%84%A4%EB%AA%85
+java nio 잘 정리된 외국 블로그 http://tutorials.jenkov.com/java-nio/index.html
+selector - http://tutorials.jenkov.com/java-nio/selectors.html
+selector asynserverchannel을 써야 큰 의미가 있을듯
+
+Reactor and Proactor 구현 코드 
+http://www.javacodegeeks.com/2012/08/io-demystified.html
+
+Reactor and Proactor 의 대한 이야기 (stackoverflow)
+http://stackoverflow.com/questions/5529137/java-non-blocking-and-asynchronous-io-with-nio-nio-2-jsr203-reactor-proact
+
+threadpool executor
+http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
+
 ## 공통 수업
 
 ### 1. 기본 Dispatcher 이해하고 돌려보기
@@ -25,6 +51,7 @@
 * xml 설정 파일에서 동기, 비동기 두개의 ip,port 정보를 설정하면, 서비스 시작시 읽어오게 만들기
 * 동기/비동기 * Blocking / Non Blocking를 이해하고 동기+Blocking / 비동기 + Non Blocking 모델을 다 만들어라 (Advanced) 
 
+
 ### 6. 다양한 프로토콜도 지원해 보자. (Acceptor-Connector)
 * 프로토콜 독립적인 Dispatcher 만들기. (JSON, XML 기반의 REST 방식 2 , 기존 Stream 형태)
   Stream 기반의 0x0101:add:3:4 
@@ -47,7 +74,6 @@
 
 ### 1. Theaad Pool을 만들어라 
 * thread pool을 만들어라 
-
 
 * http://javacan.tistory.com/12 
 * http://blog.naver.com/PostView.nhn?blogId=julymorning4&logNo=100192878746 

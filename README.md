@@ -22,6 +22,10 @@
 
 * threadpool executor
  * http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
+ 
+* epoll lt & et 이야기 
+ * 10k 문제 - http://bit.ly/1CgOvnN
+ * epoll의 lt, et 설명 - http://www.joinc.co.kr/modules/moniwiki/wiki.php/Site/Network_Programing/AdvancedComm/epoll24
 
 ## 공통 수업
 
